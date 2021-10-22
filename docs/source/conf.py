@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = '2021 IMBB Bioinfo Session 5'
+copyright = 'cmpangilinan'
+author = 'cmpangilinan'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.0'
+version = '1.0'
 
 # -- General configuration
 
