@@ -1,22 +1,17 @@
-Welcome to Lumache's documentation!
+Data Sets
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+The dataset that we will use for Session 5 to 7 are Illumina sequencing reads from an IMBB study. The dataset and reference genome are located in the server folder:
+/media/ext1tb/share/2021_imbb_genomics_workshop_data/raw .
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
++----------------------------------------------------+-------------------------------------------------------------------------+
+| File                                               | Content                                                                 |
++====================================================+=========================================================================+
+| training_sample_R1.fastq                           | Illumina short reads, forward                                           |
++----------------------------------------------------+-------------------------------------------------------------------------+
+| training_sample_R2.fastq                           | Illumina short reads, reverse                                           |
++----------------------------------------------------+-------------------------------------------------------------------------+
+| training_ref_genome.fasta                          | reference genome                                                        |
++----------------------------------------------------+-------------------------------------------------------------------------+
 
-.. note::
 
-   This project is under active development.
-
-Contents
---------
-
-.. toctree::
-
-   usage
-   api
