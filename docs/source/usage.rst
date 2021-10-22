@@ -1,34 +1,42 @@
-Usage
+Preparing the directories and copying the data
 =====
 
-.. _installation:
+Create directories
+------
 
-Installation
-------------
-
-To use Lumache, first install it using pip:
+First, let's create the new directory ``dataset`` in your ``home`` folder. 
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   mkdir dataset
 
-Creating recipes
-----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+And create the other directories and subdirectories that you will need for this session: 
 
-.. autofunction:: lumache.get_random_ingredients
+.. code-block:: console
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+   mkdir reads_qc
+   mkdir denovo_assembly
+   mkdir denovo_assembly/qc
+   
 
-.. autoexception:: lumache.InvalidKindError
+Define variables for convenience:
 
-For example:
+.. code-block:: console
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+   DATA=~/dataset
+   DENOVO=~/denovo_assembly
+   
+   
+   
+Copy the data
+-----
 
+Now, copy the data into our data directory:
+
+.. code-block:: console
+
+   cp -r /media/ext1tb/share/2021_imbb_genomics_workshop_data $DATA
+   
+ 
+  
